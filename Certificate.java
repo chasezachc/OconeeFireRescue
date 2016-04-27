@@ -4,11 +4,8 @@
 package model;
 
 import java.sql.Date;
+// or should it be import java.util.Date;  ?
 
-/**
- * @author Katlyn
- *
- */
 public class Certificate {
 	
 	private int certificationID;
