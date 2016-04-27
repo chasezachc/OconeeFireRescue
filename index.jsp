@@ -9,19 +9,20 @@
 <title>Oconee Fire Rescue</title>
 </head>
 <body>
-<h1>Oconee Fire Rescue </h1>
+<h1>Oconee Fire Rescue</h1>
 <h2>Member Certification Database</h2>
-<form name="loginServlet"  action="login" method="post">
+<form name="login"  action="login" method="post">
 
-  <label><strong> Please enter your login information below:</strong></label><br/>
-           Email:<input type=text name=email /><br/>
-           Password:<input type=text name=password /><br/>
+  <label><strong>Please enter your login information below:</strong></label>
+        <br/>
+        Email:<input type=text name="email" value="" />
+        <br/>
+        Password:<input type=password name=password value=""/>
+        <br/>
         
             
 <input type="submit" value="Login" />
 </form>
-<div id="button"><a href="RESET PASSWORD">Forget your username or password?</br> Reset Credentials </a> </div>
-
 
 </body>
 </html>
